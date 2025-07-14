@@ -10,7 +10,8 @@ import {
   FileText,
   CreditCard,
   Receipt,
-  ChevronRight
+  ChevronRight,
+  Settings
 } from "lucide-react";
 import { cn } from "~/lib/utils";
 
@@ -59,6 +60,7 @@ export function Sidebar({ isOpen, onClose, className }: SidebarProps) {
     if (path.startsWith("/order")) return "order-service";
     if (path.startsWith("/tickets")) return "all-tickets";
     if (path.startsWith("/invoices")) return "all-invoices";
+    if (path.startsWith("/settings")) return "settings";
     return "dashboard";
   })();
 
@@ -135,13 +137,20 @@ export function Sidebar({ isOpen, onClose, className }: SidebarProps) {
               icon: Receipt,
               href: "/invoices",
             },
-            {
-              id: "payment-methods",
-              label: "Payment Methods",
-              icon: CreditCard,
-              href: "/billing/payment-methods",
-            },
           ],
+        },
+      ],
+    },
+    {
+      id: "account",
+      label: "Account",
+      items: [
+        {
+          id: "settings",
+          label: "Settings",
+          icon: Settings,
+          href: "/settings",
+          isActive: activeItem === "settings",
         },
       ],
     },
