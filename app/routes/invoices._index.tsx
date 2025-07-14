@@ -8,10 +8,10 @@ import { mockInvoices } from "~/lib/data/invoices";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Invoices - LuminexClient | Billing Management" },
-    { 
-      name: "description", 
-      content: "Manage your invoices, view payment history, and process payments for hosting services and domains." 
+    { title: "Invoices - LuminexClient" },
+    {
+      name: "description",
+      content: "Invoice management interface with status tracking, payment processing, and detailed invoice views."
     },
   ];
 };

@@ -4,10 +4,10 @@ import { DashboardPage } from "~/components/dashboard/pages/dashboard";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Dashboard - LuminexClient | Hosting Management" },
-    { 
-      name: "description", 
-      content: "Manage your hosting services, support tickets, and billing from your LuminexClient dashboard." 
+    { title: "Dashboard - LuminexClient" },
+    {
+      name: "description",
+      content: "Dashboard overview with statistics, quick actions, and recent activity. Built with modern UI components."
     },
   ];
 };

@@ -8,10 +8,10 @@ interface CTASectionProps {
 
 export function CTASection({ className }: CTASectionProps) {
   const benefits = [
-    "No monthly licensing fees",
-    "Complete source code access",
-    "Unlimited customization",
-    "Community-driven development",
+    "Open source template",
+    "Modern tech stack",
+    "Fully customizable",
+    "Production ready",
   ];
 
   return (
@@ -57,7 +57,7 @@ export function CTASection({ className }: CTASectionProps) {
             transition={{ duration: 0.6 }}
             className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6"
           >
-            Ready to <span className="gradient-text">Ditch WHMCS</span>?
+            Ready to <span className="gradient-text">Get Started</span>?
           </motion.h2>
 
           {/* Subtitle */}
@@ -68,8 +68,8 @@ export function CTASection({ className }: CTASectionProps) {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8"
           >
-            Join thousands of hosting providers who have made the switch to LuminexClient. 
-            Start saving money and gain complete control over your client management system.
+            Download this template and start building your next project with modern web technologies.
+            Perfect foundation for dashboards, admin panels, and client portals.
           </motion.p>
 
           {/* Benefits List */}
@@ -111,17 +111,17 @@ export function CTASection({ className }: CTASectionProps) {
               className="group flex items-center space-x-2 bg-gradient-primary text-white px-8 py-4 rounded-lg font-semibold glow-effect hover:opacity-90 transition-all duration-200"
             >
               <Download className="w-5 h-5" />
-              <span>Download Free</span>
+              <span>Download Template</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
             </motion.button>
-            
+
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center space-x-2 bg-muted/50 backdrop-blur-sm border border-border text-foreground px-8 py-4 rounded-lg font-semibold hover:bg-muted/70 transition-all duration-200"
             >
               <Play className="w-5 h-5" />
-              <span>Watch Demo</span>
+              <span>View Demo</span>
             </motion.button>
 
             <motion.button
@@ -129,7 +129,7 @@ export function CTASection({ className }: CTASectionProps) {
               whileTap={{ scale: 0.95 }}
               className="flex items-center space-x-2 bg-transparent border-2 border-primary text-primary px-8 py-4 rounded-lg font-semibold hover:bg-primary hover:text-white transition-all duration-200"
             >
-              <span>Migration Guide</span>
+              <span>Documentation</span>
             </motion.button>
           </motion.div>
 
@@ -142,7 +142,7 @@ export function CTASection({ className }: CTASectionProps) {
             className="mt-12 pt-8 border-t border-border/50"
           >
             <p className="text-sm text-muted-foreground mb-4">
-              Trusted by hosting providers worldwide
+              Built with modern technologies
             </p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
               {/* Placeholder for company logos */}

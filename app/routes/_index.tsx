@@ -7,21 +7,21 @@ import { CTASection } from "~/components/cta-section";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "LuminexClient - Open Source WHMCS Alternative | Client Area Management" },
+    { title: "LuminexClient - A Client Area UI made in Remix" },
     {
       name: "description",
-      content: "The modern, open-source alternative to WHMCS. Automate billing, service provisioning, and client management for hosting providers and service businesses. Free to download and customize."
+      content: "A modern frontend template showcasing a client area interface built with Remix, TypeScript, and Tailwind CSS. Features responsive design, dark theme, and beautiful animations."
     },
-    { name: "keywords", content: "WHMCS alternative, open source billing, client area management, hosting automation, service provisioning, automated billing, hosting provider software, client portal" },
-    { property: "og:title", content: "LuminexClient - Open Source WHMCS Alternative" },
+    { name: "keywords", content: "remix template, typescript, tailwind css, client area, dashboard template, frontend template, react components, dark theme" },
+    { property: "og:title", content: "LuminexClient - Frontend Template" },
     {
       property: "og:description",
-      content: "The modern, open-source alternative to WHMCS for hosting providers and service businesses. Automate billing, provisioning, and client management."
+      content: "Modern client area frontend template built with Remix, TypeScript, and Tailwind CSS. Perfect for dashboards and admin panels."
     },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "LuminexClient - Open Source WHMCS Alternative" },
-    { name: "twitter:description", content: "Modern client area management system for hosting providers. Open source, customizable, and feature-rich." },
+    { name: "twitter:title", content: "LuminexClient - Frontend Template" },
+    { name: "twitter:description", content: "Modern client area template with responsive design and beautiful animations." },
   ];
 };
 

@@ -8,10 +8,10 @@ import { userServices } from "~/lib/data/services";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "My Services - LuminexClient | Hosting Management" },
-    { 
-      name: "description", 
-      content: "Manage your hosting services, view status, and configure your web hosting, Minecraft servers, and Discord bots." 
+    { title: "Services - LuminexClient" },
+    {
+      name: "description",
+      content: "Services management interface with filtering, status tracking, and detailed service information."
     },
   ];
 };

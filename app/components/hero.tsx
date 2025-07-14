@@ -8,9 +8,9 @@ interface HeroProps {
 
 export function Hero({ className }: HeroProps) {
   const features = [
-    { icon: Zap, text: "Open Source" },
-    { icon: Shield, text: "WHMCS Alternative" },
-    { icon: Sparkles, text: "Client Management" },
+    { icon: Zap, text: "Modern UI" },
+    { icon: Shield, text: "Responsive Design" },
+    { icon: Sparkles, text: "Component Library" },
   ];
 
   return (
@@ -58,7 +58,7 @@ export function Hero({ className }: HeroProps) {
           >
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-primary">
-              Open Source WHMCS Alternative
+              Advanced Client Area Ui
             </span>
           </motion.div>
 
@@ -70,11 +70,11 @@ export function Hero({ className }: HeroProps) {
             className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
           >
             <span className="gradient-text">
-              Next-Generation
+              A Client Area UI
             </span>
             <br />
             <span className="text-foreground">
-              Client Area Platform
+              made in Remix
             </span>
           </motion.h1>
 
@@ -85,10 +85,9 @@ export function Hero({ className }: HeroProps) {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed"
           >
-            The modern, open-source alternative to WHMCS. Streamline your hosting business
-            with automated billing, service provisioning, customer portals, and comprehensive
-            client management tools. Built with cutting-edge technology for hosting providers
-            and service businesses.
+            A modern frontend template showcasing a client area interface built with Remix,
+            TypeScript, and Tailwind CSS. Features responsive design, dark theme, and
+            beautiful animations for your next project.
           </motion.p>
 
           {/* Feature Pills */}
@@ -126,7 +125,7 @@ export function Hero({ className }: HeroProps) {
               whileTap={{ scale: 0.95 }}
               className="group flex items-center space-x-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold glow-effect hover:bg-primary/90 transition-all duration-200"
             >
-              <span>Start Free Trial</span>
+              <span>View Demo</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
             </motion.button>
 
@@ -135,7 +134,7 @@ export function Hero({ className }: HeroProps) {
               whileTap={{ scale: 0.95 }}
               className="flex items-center space-x-2 bg-muted/50 backdrop-blur-sm border border-border text-foreground px-8 py-4 rounded-lg font-semibold hover:bg-muted/70 transition-all duration-200"
             >
-              <span>Compare with WHMCS</span>
+              <span>View Components</span>
             </motion.button>
           </motion.div>
 
@@ -147,9 +146,9 @@ export function Hero({ className }: HeroProps) {
             className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-16 pt-16 border-t border-border"
           >
             {[
-              { value: "99.9%", label: "Uptime SLA" },
-              { value: "5000+", label: "Hosting Providers" },
-              { value: "50k+", label: "Managed Clients" },
+              { value: "100%", label: "TypeScript" },
+              { value: "Modern", label: "Tech Stack" },
+              { value: "Open", label: "Source" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}

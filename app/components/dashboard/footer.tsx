@@ -26,9 +26,9 @@ export function DashboardFooter({ className }: DashboardFooterProps) {
 
           {/* Made with love */}
           <div className="flex items-center space-x-1 text-sm text-muted-foreground">
-            <span>Made with</span>
+            <span>Built with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>for hosting providers</span>
+            <span>Remix & TypeScript</span>
           </div>
 
           {/* Version */}

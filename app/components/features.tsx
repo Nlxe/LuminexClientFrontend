@@ -21,64 +21,64 @@ export function Features({ className }: FeaturesProps) {
   const features = [
     {
       icon: CreditCard,
-      title: "Automated Billing & Invoicing",
-      description: "Streamline your revenue with automated recurring billing, invoice generation, and payment processing. Support for multiple payment gateways and currencies.",
+      title: "Modern UI Components",
+      description: "Beautiful and accessible UI components built with Radix UI and styled with Tailwind CSS. Fully customizable and ready to use in your projects.",
       color: "text-green-500",
       bgColor: "bg-green-500/10",
     },
     {
       icon: Server,
-      title: "Service Provisioning",
-      description: "Automatically provision hosting accounts, domains, SSL certificates, and other services. Integrate with popular control panels like cPanel, Plesk, and DirectAdmin.",
+      title: "TypeScript Support",
+      description: "Full TypeScript support with type safety throughout the application. Includes proper interfaces and type definitions for better development experience.",
       color: "text-blue-500",
       bgColor: "bg-blue-500/10",
     },
     {
       icon: MessageSquare,
-      title: "Support Ticket System",
-      description: "Built-in helpdesk with ticket management, knowledge base, and customer communication tools. Keep your clients happy with efficient support workflows.",
+      title: "Responsive Design",
+      description: "Mobile-first responsive design that works perfectly on all devices. Built with modern CSS Grid and Flexbox for optimal layout flexibility.",
       color: "text-purple-500",
       bgColor: "bg-purple-500/10",
     },
     {
       icon: Globe,
-      title: "Domain Management",
-      description: "Complete domain lifecycle management including registration, transfers, renewals, and DNS management. Integrate with major domain registrars.",
+      title: "Dark Theme",
+      description: "Beautiful dark theme implementation with proper contrast ratios and accessibility considerations. Easy to customize and extend.",
       color: "text-cyan-500",
       bgColor: "bg-cyan-500/10",
     },
     {
       icon: DollarSign,
-      title: "Multi-Currency Support",
-      description: "Accept payments in multiple currencies with real-time exchange rates. Perfect for international hosting providers and global service businesses.",
+      title: "Framer Motion",
+      description: "Smooth animations and micro-interactions powered by Framer Motion. Enhances user experience with delightful motion design.",
       color: "text-yellow-500",
       bgColor: "bg-yellow-500/10",
     },
     {
       icon: Smartphone,
-      title: "Mobile-Responsive Portal",
-      description: "Your clients can manage their services, view invoices, and submit tickets from any device. Fully responsive design for optimal mobile experience.",
+      title: "Remix Framework",
+      description: "Built on top of Remix for optimal performance with server-side rendering, progressive enhancement, and excellent developer experience.",
       color: "text-pink-500",
       bgColor: "bg-pink-500/10",
     },
     {
       icon: Palette,
-      title: "Custom Branding",
-      description: "White-label solution with complete customization options. Use your own branding, colors, and domain to maintain your professional image.",
+      title: "Customizable Styling",
+      description: "Easy to customize with CSS variables and Tailwind CSS. Change colors, fonts, and layouts to match your brand and design requirements.",
       color: "text-indigo-500",
       bgColor: "bg-indigo-500/10",
     },
     {
       icon: Zap,
-      title: "API Integrations",
-      description: "Extensive REST API for custom integrations. Connect with your existing tools, automate workflows, and build custom solutions on top of LuminexClient.",
+      title: "Performance Optimized",
+      description: "Built with performance in mind using modern web standards. Optimized bundle sizes, lazy loading, and efficient rendering for fast user experiences.",
       color: "text-orange-500",
       bgColor: "bg-orange-500/10",
     },
     {
       icon: BarChart3,
-      title: "Advanced Analytics",
-      description: "Comprehensive reporting and analytics dashboard. Track revenue, monitor service usage, analyze customer behavior, and make data-driven decisions.",
+      title: "Component Library",
+      description: "Comprehensive set of reusable components including forms, tables, modals, and more. Well-documented and easy to integrate into your projects.",
       color: "text-red-500",
       bgColor: "bg-red-500/10",
     },
@@ -117,10 +117,10 @@ export function Features({ className }: FeaturesProps) {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            <span className="gradient-text">Complete Client Management</span>
+            <span className="gradient-text">Modern Frontend Features</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Everything hosting providers and service businesses need to manage clients, automate billing, and grow their business efficiently.
+            A comprehensive set of features and components built with modern web technologies for creating beautiful user interfaces.
           </p>
         </motion.div>
 

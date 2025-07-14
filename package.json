@@ -1,5 +1,5 @@
 {
-  "name": "luminexclient",
+  "name": "luminexclient-frontend",
   "private": true,
   "sideEffects": false,
   "type": "module",

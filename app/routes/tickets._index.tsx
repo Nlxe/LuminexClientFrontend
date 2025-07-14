@@ -8,10 +8,10 @@ import { mockTickets } from "~/lib/data/tickets";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Support Tickets - LuminexClient | Customer Support" },
-    { 
-      name: "description", 
-      content: "Manage your support tickets, track progress, and communicate with our support team for hosting and service issues." 
+    { title: "Support Tickets - LuminexClient" },
+    {
+      name: "description",
+      content: "Support ticket management system with status tracking, priority levels, and communication features."
     },
   ];
 };

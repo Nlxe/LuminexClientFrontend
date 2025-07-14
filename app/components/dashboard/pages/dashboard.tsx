@@ -29,28 +29,28 @@ export function DashboardPage() {
 
   const quickActions = [
     {
-      title: "Order New Service",
-      description: "Add hosting, domains, or other services",
+      title: "Create New Item",
+      description: "Add new items to your account",
       icon: Plus,
-      href: "/order",
+      href: "/create",
     },
     {
-      title: "Create Support Ticket",
-      description: "Get help from our support team",
+      title: "Support Center",
+      description: "Get help and submit tickets",
       icon: MessageSquare,
       href: "/tickets/create",
     },
     {
       title: "View Invoices",
-      description: "Check your billing and payment history",
+      description: "Check your billing information",
       icon: CreditCard,
       href: "/invoices",
     },
     {
-      title: "Manage Services",
-      description: "Configure and monitor your services",
+      title: "Account Settings",
+      description: "Manage your account preferences",
       icon: Settings,
-      href: "/services",
+      href: "/settings",
     },
   ];
 
@@ -89,24 +89,24 @@ export function DashboardPage() {
       {/* Page Header */}
       <PageHeader
         title="Dashboard"
-        description="Welcome back! Here's an overview of your hosting services and account."
+        description="Welcome back! Here's an overview of your account and recent activity."
       />
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <StatsCard
-          title="Total Services"
+          title="Total Items"
           value={stats.totalServices.toString()}
-          description="Active hosting services"
+          description="Active items in account"
           icon={Server}
           trend={{
             value: 1,
             isPositive: true
           }}
         />
-        
+
         <StatsCard
-          title="Service Uptime"
+          title="System Status"
           value={`${stats.uptime}%`}
           description="Last 30 days"
           icon={TrendingUp}
@@ -115,22 +115,22 @@ export function DashboardPage() {
             isPositive: true
           }}
         />
-        
+
         <StatsCard
           title="Open Tickets"
           value={stats.pendingTickets.toString()}
-          description="Pending support requests"
+          description="Pending requests"
           icon={MessageSquare}
           trend={{
             value: -1,
             isPositive: true
           }}
         />
-        
+
         <StatsCard
-          title="Monthly Spend"
+          title="Account Balance"
           value={`$${stats.monthlyRevenue.toFixed(2)}`}
-          description="Current billing cycle"
+          description="Current balance"
           icon={DollarSign}
           trend={{
             value: 15.2,

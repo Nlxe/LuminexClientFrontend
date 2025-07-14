@@ -76,14 +76,14 @@ export function AuthLayout({
             className="space-y-6"
           >
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              The Modern
+              Modern Client
               <br />
-              <span className="gradient-text">WHMCS Alternative</span>
+              <span className="gradient-text">Area Template</span>
             </h1>
-            
+
             <p className="text-xl text-muted-foreground leading-relaxed max-w-md">
-              Join thousands of hosting providers who have made the switch to 
-              open-source client management.
+              A beautiful frontend template built with Remix, TypeScript,
+              and modern web technologies.
             </p>
 
             <div className="space-y-4 pt-8">

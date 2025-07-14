@@ -16,30 +16,30 @@ export function Footer({ className }: FooterProps) {
 
   const footerLinks = [
     {
-      title: "Product",
+      title: "Template",
       links: [
-        { name: "Features", href: "#" },
-        { name: "WHMCS Comparison", href: "#" },
-        { name: "Migration Guide", href: "#" },
-        { name: "API Documentation", href: "#" },
+        { name: "Components", href: "#" },
+        { name: "Documentation", href: "#" },
+        { name: "Examples", href: "#" },
+        { name: "Customization", href: "#" },
       ],
     },
     {
       title: "Resources",
       links: [
         { name: "Download", href: "#" },
-        { name: "Documentation", href: "#" },
-        { name: "Community Forum", href: "#" },
-        { name: "GitHub Repository", href: "#" },
+        { name: "Getting Started", href: "#" },
+        { name: "GitHub", href: "#" },
+        { name: "Issues", href: "#" },
       ],
     },
     {
-      title: "Support",
+      title: "Community",
       links: [
-        { name: "Help Center", href: "#" },
-        { name: "Installation Guide", href: "#" },
-        { name: "System Status", href: "#" },
-        { name: "Contact Support", href: "#" },
+        { name: "Discussions", href: "#" },
+        { name: "Contributing", href: "#" },
+        { name: "Changelog", href: "#" },
+        { name: "License", href: "#" },
       ],
     },
   ];
@@ -69,9 +69,8 @@ export function Footer({ className }: FooterProps) {
               transition={{ delay: 0.1 }}
               className="text-muted-foreground mb-6 max-w-md"
             >
-              The modern, open-source client area management system. Empowering
-              hosting providers and service businesses with automated billing,
-              provisioning, and customer management tools.
+              A modern frontend template built with Remix, TypeScript, and Tailwind CSS.
+              Perfect for creating beautiful client area interfaces and dashboard applications.
             </motion.p>
 
             <motion.div

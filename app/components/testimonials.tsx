@@ -10,43 +10,43 @@ interface TestimonialsProps {
 export function Testimonials({ className }: TestimonialsProps) {
   const testimonials = [
     {
-      name: "Michael Torres",
-      role: "CEO",
-      company: "CloudHost Pro",
+      name: "Alex Johnson",
+      role: "Frontend Developer",
+      company: "TechCorp",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      content: "Migrating from WHMCS to LuminexClient reduced our billing overhead by 60%. The automated provisioning and modern interface have significantly improved customer satisfaction.",
+      content: "This template saved me weeks of development time. The component structure is well-organized and the TypeScript integration is excellent.",
       rating: 5,
     },
     {
-      name: "Sarah Mitchell",
-      role: "Operations Director",
-      company: "WebHost Solutions",
+      name: "Sarah Chen",
+      role: "UI/UX Designer",
+      company: "Design Studio",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-      content: "The seamless migration from WHMCS was impressive. Our clients love the new mobile-responsive portal, and we've seen a 40% reduction in support tickets.",
+      content: "Beautiful design system with consistent spacing and typography. The dark theme implementation is particularly well done.",
       rating: 5,
     },
     {
-      name: "James Rodriguez",
-      role: "Founder",
-      company: "Digital Servers Inc",
+      name: "Mike Rodriguez",
+      role: "Full Stack Developer",
+      company: "StartupXYZ",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      content: "As a growing hosting provider, LuminexClient's open-source nature and API flexibility allowed us to customize everything to our needs. The cost savings are substantial.",
+      content: "Great starting point for any dashboard project. The Remix integration and performance optimizations are impressive.",
       rating: 5,
     },
     {
-      name: "Amanda Chen",
-      role: "Technical Director",
-      company: "ManagedVPS Co",
+      name: "Emily Davis",
+      role: "Product Manager",
+      company: "WebApp Inc",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-      content: "The automated billing and service provisioning features are game-changers. We've scaled from 500 to 2000+ clients without adding billing staff.",
+      content: "The responsive design works flawlessly across all devices. Perfect foundation for our client portal project.",
       rating: 5,
     },
     {
-      name: "Robert Kim",
-      role: "CTO",
-      company: "Enterprise Hosting",
+      name: "David Kim",
+      role: "Lead Developer",
+      company: "SaaS Company",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      content: "The multi-currency support and payment gateway integrations made our international expansion seamless. LuminexClient handles complexity beautifully.",
+      content: "Clean code structure and excellent documentation. The Framer Motion animations add a professional touch.",
       rating: 5,
     },
     {
@@ -92,10 +92,10 @@ export function Testimonials({ className }: TestimonialsProps) {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            What <span className="gradient-text">Hosting Providers</span> Say
+            What <span className="gradient-text">Developers</span> Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Join thousands of hosting providers and service businesses who have successfully migrated from WHMCS to LuminexClient.
+            Feedback from developers who have used this template to build their projects and applications.
           </p>
         </motion.div>
 
